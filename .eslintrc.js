@@ -8,4 +8,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  overrides: [
+    {
+      files: '*.eslintrc.js',
+      env: { node: true },
+    }
+  ],
 };

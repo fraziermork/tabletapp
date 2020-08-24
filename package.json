@@ -2,16 +2,19 @@
   "name": "@tabletapp/root",
   "version": "0.1.0",
   "private": true,
+  "author": "Frazier Mork",
   "description": "learning project",
-  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "lerna bootstrap"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fraziermork/tabletapp.git"
   },
-  "author": "=",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fraziermork/tabletapp/issues"
@@ -21,6 +24,13 @@
     "@typescript-eslint/eslint-plugin": "^3.10.0",
     "@typescript-eslint/parser": "^3.10.0",
     "eslint": "^7.7.0",
-    "typescript": "^4.0.2"
+    "lerna": "^3.22.1",
+    "typescript": "^4.0.2",
+    "wsrun": "^5.2.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   }
 }
