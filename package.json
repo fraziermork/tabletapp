@@ -1,0 +1,20 @@
+{
+  "name": "@tabletapp/root",
+  "version": "0.1.0",
+  "private": true,
+  "description": "learning project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraziermork/tabletapp.git"
+  },
+  "author": "=",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraziermork/tabletapp/issues"
+  },
+  "homepage": "https://github.com/fraziermork/tabletapp#readme"
+}
