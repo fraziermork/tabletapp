@@ -1,5 +1,5 @@
 import useSWR from 'swr'
-import { Thing } from '@tabletapp/tabletop'
+import { TableTop } from '@tabletapp/tabletop'
 
 const fetcher = (query) =>
   fetch('/api/graphql', {
@@ -25,7 +25,7 @@ export default function Index() {
       {users.map((user, i) => (
         <div key={i}>{user.name}</div>
       ))}
-      <Thing />
+      <TableTop id="hosted" />
     </div>
   )
 }
